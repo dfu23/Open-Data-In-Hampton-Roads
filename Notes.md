@@ -1,7 +1,17 @@
 Open-Data-In-Hampton-Roads
 ==========================
-
 Notes For An Upcoming Presentation On Open GIS Data
+
+##What
+
+##Why
+
+##Who Supports Open GIS Data?
+*__EVERYONE!!__
+*Esri is releasing [ArcGIS For Open Data](https://composer.dc.esri.com/) that will allow users with AGOL Organization accounts to publish there existing and new services as 'Open'. This also includes a tool for creating an open data page for your organization.
+*
+
+##How
 
 
 ####Hampton Roads Cities Matrix
