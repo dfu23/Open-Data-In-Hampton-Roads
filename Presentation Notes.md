@@ -68,3 +68,4 @@ http://opendataphilly.org/faq/
 http://simpleopendata.com/  
 http://blogs.esri.com/esri/esri-insider/2014/03/05/esri-open-source-growing/  
 http://www.nps.gov/npmap/slides/nps-and-osm/#1
+https://www.mapbox.com/blog/nyc-and-openstreetmap-cooperating-through-open-data/
