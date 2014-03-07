@@ -1,10 +1,12 @@
-Open-Data-In-Hampton-Roads
+Open Data &  GIS
 ==========================
-Notes For An Upcoming Presentation On Open GIS Data
+Short overview of what Open GIS data means, with helpful hints to make publishing data simple and effective.
 
-##What
+_Notes For An Upcoming Presentation To The Hampton Roads GIS Users Group_
 
-##Why
+##Why?
+
+Need A Real No Shit Reason(s) Why Anyone Would Who Normally Charges For GIS Data Would Open Their Data.
 
 ##Who Supports Open GIS Data?
 __Everyone Except You!!__
@@ -29,7 +31,7 @@ Esri is releasing [ArcGIS For Open Data](https://composer.dc.esri.com/) that wil
 
 ####But, there are _many, many_ other __Open Source__ methods to share your data with the public.
 
-##How
+##How (Resources)
 * [__GitHub__](www.github.com) The de-facto collaborative environment for many organizations.
 * [__Open Street Map__](http://www.openstreetmap.org/about) A great tool/workflow for making your data available in highly used map services around the world.  
 * [__Esri2Open__](https://github.com/project-open-data/esri2open) Part of [Project Open Data](https://github.com/project-open-data) is a free ArcGIS toolbox for exporting GIS data to sharable formats.
@@ -55,4 +57,13 @@ Surry County | [GIS Site](http://surry.mapsdirect.net/) | NO | N/A | N/A |
 Virginia Beach | [VB Center For GIS](http://www.vbgov.com/government/departments/communications-info-tech/maps/Pages/default.aspx) | YES |[Order Form](http://www.vbgov.com/government/departments/communications-info-tech/maps/Documents/Info_about_Available_Data.pdf) / [KML](http://www.vbgov.com/government/departments/communications-info-tech/maps/Pages/GIS-KML-Data.aspx) | Free To Order |
 York County | [GIS Mapping](http://www.yorkcounty.gov/CountyGovernment/FinancialMgmtServices/GISMapping.aspx) | YES | [Digital Data](http://www.yorkcounty.gov/CountyGovernment/FinancialMgmtServices/GISMapping/DigitalData.aspx) | $20-$300 |
 Williamsburg | [GIS Layers](https://www.williamsburgva.gov/Index.aspx?page=793) | `YES` | [GIS Layers](https://www.williamsburgva.gov/Index.aspx?page=793) | `FREE`
+
+
+
+Include Amended Notes From
+
+http://project-open-data.github.io/business-case/  
+http://opendataphilly.org/faq/  
+http://simpleopendata.com/  
+http://blogs.esri.com/esri/esri-insider/2014/03/05/esri-open-source-growing/  
 
