@@ -70,3 +70,5 @@ http://blogs.esri.com/esri/esri-insider/2014/03/05/esri-open-source-growing/
 http://www.nps.gov/npmap/slides/nps-and-osm/#1
 https://www.mapbox.com/blog/nyc-and-openstreetmap-cooperating-through-open-data/
 http://openstreetmap.us/2013/04/openstreetmap-in-government/
+http://www.slideshare.net/geomantic/openstreetmap-in-government-us-census-bureau-experience
+http://gis.19327.n5.nabble.com/Using-Open-Street-map-for-UK-local-government-physical-assets-td5795531.html
