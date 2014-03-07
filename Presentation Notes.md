@@ -7,6 +7,7 @@ _Notes For An Upcoming Presentation To The Hampton Roads GIS Users Group_
 ##Why?
 
 Need A Real No Shit Reason(s) Why Anyone Would Who Normally Charges For GIS Data Would Open Their Data.
+* _The majority of your data is out there (and free) and being edited without you_
 
 ##Who Supports Open GIS Data?
 __Everyone Except You!!__
