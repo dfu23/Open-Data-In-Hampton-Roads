@@ -77,3 +77,5 @@ https://www.mapbox.com/blog/nyc-and-openstreetmap-cooperating-through-open-data/
 http://openstreetmap.us/2013/04/openstreetmap-in-government/  
 http://www.slideshare.net/geomantic/openstreetmap-in-government-us-census-bureau-experience  
 http://gis.19327.n5.nabble.com/Using-Open-Street-map-for-UK-local-government-physical-assets-td5795531.html  
+http://blogs.esri.com/esri/arcgis/2012/03/08/hello-map-getting-started-with-the-arcgis-editor-for-openstreetmap/  
+http://learnosm.org/en/  
