@@ -7,7 +7,12 @@ _Notes For An Upcoming Presentation To The Hampton Roads GIS Users Group_
 ##Why?
 
 Need A Real No Shit Reason(s) Why Anyone Would Who Normally Charges For GIS Data Would Open Their Data.
-* _The majority of your data is out there (and free) and being edited without you_
+* _The majority of your data is out there (and free)_
+  * Bing (Microsoft)
+  * Google Maps
+  * ArcGIS Online Streets
+  * Open Streetmap (Foursquare / MapQuest / Apple (Some) / Wikipedia / Craigslist)
+  * Here (Nokia)
 
 ##Who Supports Open GIS Data?
 __Everyone Except You!!__
@@ -67,8 +72,8 @@ http://project-open-data.github.io/business-case/
 http://opendataphilly.org/faq/  
 http://simpleopendata.com/  
 http://blogs.esri.com/esri/esri-insider/2014/03/05/esri-open-source-growing/  
-http://www.nps.gov/npmap/slides/nps-and-osm/#1
-https://www.mapbox.com/blog/nyc-and-openstreetmap-cooperating-through-open-data/
-http://openstreetmap.us/2013/04/openstreetmap-in-government/
-http://www.slideshare.net/geomantic/openstreetmap-in-government-us-census-bureau-experience
-http://gis.19327.n5.nabble.com/Using-Open-Street-map-for-UK-local-government-physical-assets-td5795531.html
+http://www.nps.gov/npmap/slides/nps-and-osm/#1  
+https://www.mapbox.com/blog/nyc-and-openstreetmap-cooperating-through-open-data/  
+http://openstreetmap.us/2013/04/openstreetmap-in-government/  
+http://www.slideshare.net/geomantic/openstreetmap-in-government-us-census-bureau-experience  
+http://gis.19327.n5.nabble.com/Using-Open-Street-map-for-UK-local-government-physical-assets-td5795531.html  
