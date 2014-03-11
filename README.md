@@ -32,11 +32,7 @@ City of Charlottesville provides it's [GIS Data](http://www.charlottesville.org/
 _City of Philadelphia_ --  [Open Data Philly](http://opendataphilly.org/faq/) ".._seeks to improve access to data about Philadelphia, increase government transparency and accountability, drive and encourage innovative uses of the data, and inform citizens about our region's trends._.."  
 _Washington DC_ --  [DC Data Catalog](http://data.octo.dc.gov/) ".._provides citizens with the access to 495 datasets from multiple agencies, a catalyst ensuring agencies operate as more responsive, better performing organizations._.."  
 5. __Citizens!__  
-People who work with your data want it in easily ingestible formats, so that they may work with it in the tools of their choice.
-6. __Commercial Vendors__  
-Esri is releasing [ArcGIS For Open Data](https://composer.dc.esri.com/) that will allow users with AGOL Organization accounts to publish there existing and new services as 'Open'. This also includes a tool for creating an open data page for your organization. 
-
-####But, there are _many, many_ other __Open Source__ methods to share your data with the public.
+People who work with your data want it in easily ingestible formats, so that they may work with it in the tools of their choice.  
 
 ##Case Studies  
 * __National Park Service__ - NPS has integrated their traditional GIS implementation of ArcSDE with Open Street Map. Custom versions of the open source iD editor for OSM, allows park employees and the public to contribute to the authoritative parks database.  
@@ -58,6 +54,7 @@ Esri is releasing [ArcGIS For Open Data](https://composer.dc.esri.com/) that wil
   * iD - The [default editor](http://www.openstreetmap.org/) for Open Street Map  
   * Edit Directly Within [MapBox Maps](https://www.mapbox.com/blog/improve-this-map/)
 * [__Esri2Open__](https://github.com/project-open-data/esri2open) Part of [Project Open Data](https://github.com/project-open-data) is a free ArcGIS toolbox for exporting GIS data to sharable formats.
+* __Esri__ is releasing [ArcGIS For Open Data](https://composer.dc.esri.com/) that will allow users with AGOL Organization accounts to publish there existing and new services as 'Open'. This also includes a tool for creating an open data page for your organization.
 
 ##How Does Hampton Roads Stack Up?
 
