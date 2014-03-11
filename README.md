@@ -1,13 +1,14 @@
 Open Data &  GIS
 ==========================
-Short overview of what Open GIS data means, with helpful hints to make publishing data simple and effective.
+_A Presentation To The Hampton Roads GIS Users Group_  
 
-_Notes For An Upcoming Presentation To The Hampton Roads GIS Users Group_
+##Why?  
 
-##Why?
+* __Organizational Benefits__ - data, in an easy to access and open format, creates a reliable a resource, that in turn improves efficiency between offices.
 
-Need A Real No Shit Reason(s) Why Anyone Would Who Normally Charges For GIS Data Would Open Their Data.
-* _The majority of your data is out there (and free)_
+* __Increased Transperancy In Local Government__ -  free and easy access to data encourages citizens and the general public to engage their government in creative and imaginative ways.
+
+* __The majority of your data is out there (and free)__
   * Bing (Microsoft)
   * Google Maps
   * ArcGIS Online Streets
@@ -37,12 +38,28 @@ Esri is releasing [ArcGIS For Open Data](https://composer.dc.esri.com/) that wil
 
 ####But, there are _many, many_ other __Open Source__ methods to share your data with the public.
 
-##How (Resources)
+##Case Studies  
+* __National Park Service__ - NPS has integrated their traditional GIS implementation of ArcSDE with Open Street Map. Custom versions of the open source iD editor for OSM, allows park employees and the public to contribute to the authoritative parks database.  
+* __New York City__ - NYC, through legislation, released it's data to the public. Using a series of [open source scripts](https://github.com/osmlab/changewithin), the GIS department changes made in and around their datasets.  
+* __Trimet__ - Portland, Oregon's regional commuter transit provider, uses OSM as the basemap for real time navigation, route planning, and scheduling.  
+
+##Things To Know  
+* __License__ - your data can be open and free and licensed! For instance, an [ODC-BY](http://opendatacommons.org/licenses/by/summary/) requires users to credit you as the original source. Open Street Map uses an [ODbl](http://opendatacommons.org/licenses/odbl/) or 'share-alike' type license.  
+* __CSV__ - 'Comma Seperated Values' is the preferred method of sharing tabular data. (Never PDF)
+* __GeoJSON__ - is a widely used standard for smaller geographic data sets. (Sometimes KML)
+* __Shapefile__ - perhaps the most used / shared georgraphic data format and is (mostly) open!
+* __GeoTIFF__ - is open standard for sharing raster data.  
+
+##Tools To Use
+* __SIMPLE__ Links On A Web Page!  
 * [__GitHub__](www.github.com) The de-facto collaborative environment for many organizations.
 * [__Open Street Map__](http://www.openstreetmap.org/about) A great tool/workflow for making your data available in highly used map services around the world.  
+  * ArcGIS Editor For Open Street Map - [Free Download From Esri](http://blogs.esri.com/esri/arcgis/2012/03/08/hello-map-getting-started-with-the-arcgis-editor-for-openstreetmap/)  
+  * iD - The [default editor](http://www.openstreetmap.org/) for Open Street Map  
+  * Edit Directly Within [MapBox Maps](https://www.mapbox.com/blog/improve-this-map/)
 * [__Esri2Open__](https://github.com/project-open-data/esri2open) Part of [Project Open Data](https://github.com/project-open-data) is a free ArcGIS toolbox for exporting GIS data to sharable formats.
 
-####Hampton Roads Cities Matrix
+##How Does Hampton Roads Stack Up?
 
 City | GIS Link | Data Available | Link | Cost |
 --- | --- | --- | --- | ---|
@@ -66,16 +83,24 @@ Williamsburg | [GIS Layers](https://www.williamsburgva.gov/Index.aspx?page=793) 
 
 
 
-Include Amended Notes From
 
-http://project-open-data.github.io/business-case/  
-http://opendataphilly.org/faq/  
-http://simpleopendata.com/  
-http://blogs.esri.com/esri/esri-insider/2014/03/05/esri-open-source-growing/  
-http://www.nps.gov/npmap/slides/nps-and-osm/#1  
-https://www.mapbox.com/blog/nyc-and-openstreetmap-cooperating-through-open-data/  
-http://openstreetmap.us/2013/04/openstreetmap-in-government/  
-http://www.slideshare.net/geomantic/openstreetmap-in-government-us-census-bureau-experience  
-http://gis.19327.n5.nabble.com/Using-Open-Street-map-for-UK-local-government-physical-assets-td5795531.html  
-http://blogs.esri.com/esri/arcgis/2012/03/08/hello-map-getting-started-with-the-arcgis-editor-for-openstreetmap/  
-http://learnosm.org/en/  
+#### Further Reading  
+* National Park Service  
+  * [Places Of Interest](http://www.nps.gov/npmap/blog/nps-plus-osm-equals-places-of-interest.html) Implementation
+  * [NPS And OSM](http://www.nps.gov/npmap/slides/nps-and-osm/#1)  
+* Trimet
+  * [TriMet & Open Street Map](http://prezi.com/jgj6cl1rtwm5/openstreetmap-and-the-trimets-open-source-trip-planner/)  
+* [Project Open Data](http://project-open-data.github.io/business-case/)  
+* [Open Data Philly](http://opendataphilly.org/faq/)   
+* Open Street Map
+  * [OSM In Government](http://openstreetmap.us/2013/04/openstreetmap-in-government/)
+  * [Census Bureau & OSM](http://www.slideshare.net/geomantic/openstreetmap-in-government-us-census-bureau-experience) 
+  * [Learn OSM](http://learnosm.org/en/  )  
+* [Simple Open Data](http://simpleopendata.com/)  
+* Esri
+  * [ArcGIS Open Data](http://blogs.esri.com/esri/arcgis/2014/02/10/preview-of-open-data/)  
+  * [Esri & Open Source](http://blogs.esri.com/esri/esri-insider/2014/03/05/esri-open-source-growing/)  
+  * [ArcGIS Editor For OSM](http://blogs.esri.com/esri/arcgis/2012/03/08/hello-map-getting-started-with-the-arcgis-editor-for-openstreetmap/)  
+ 
+
+
