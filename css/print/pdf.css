@@ -16,7 +16,7 @@
 }
 
 body {
-	font-size: 18pt;
+	font-size: 36pt;
 	width: 297mm;
 	height: 229mm;
 	margin: 0 auto !important;
@@ -24,6 +24,8 @@ body {
 	padding: 0;
 	float: none !important;
 	overflow: visible;
+	background: #002b36;
+	background-color: #002b36; }
 }
 
 html {
@@ -52,7 +54,7 @@ html {
 /* SECTION 3: Set body font face, size, and color.
    Consider using a serif font for readability. */
 body, p, td, li, div {
-	font-size: 18pt;
+	font-size: 36pt;
 }
 
 /* SECTION 4: Set heading font face, sizes, and color.
