@@ -1,78 +1,340 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Open-data-in-hampton-roads by jonahadkins</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<html lang="en">
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/jonahadkins/Open-Data-In-Hampton-Roads">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/jonahadkins/Open-Data-In-Hampton-Roads/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/jonahadkins/Open-Data-In-Hampton-Roads/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+	<head>
+		<meta charset="utf-8">
 
-    <div class="wrapper">
+		<title>reveal.js - The HTML Presentation Framework</title>
 
-      <section>
-        <div id="title">
-          <h1>Open-data-in-hampton-roads</h1>
-          <p>Notes For An Upcoming Presentation To The Hampton Roads GIS Users Group</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/jonahadkins">jonahadkins</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
 
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="night">
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	
+	</head>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+	<body>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+		<div class="reveal">
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Open Data & GIS</h1>
+					<h3>A Presentation To The Hampton Roads GIS Users Group</h3>
+					<p>
+						<small>Jonah Adkins || <a href="http://twitter.com/jonahadkins">@jonahadkins</a></small>
+					</p>
+				</section>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+				<section>
+					<h1>Why?</h1>
+				</section>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+				<section>
+					<ul>
+						<li><a><b>Organizational Benefits</b></a>: data, in an easy to access and open format, creates a reliable a resource, that in turn improves efficiency between offices</li>
+						<li><a><b>Increased Transperancy In Local Government</b></a>: free and easy access to data encourages citizens and the general public to engage their government in creative and imaginative ways.</li>
+						<li><a><b>The majority of your data is out there (and free)</b></a>:</li>
+						<ul>
+							<li>Bing (Microsoft)</li>
+							<li>Google Maps</li>
+							<li>ArcGIS Online Streets</li>
+							<li>Open Streetmap (Foursquare / MapQuest / Apple (Some) / Wikipedia / Craigslist)</li>
+							<li>Here (Nokia)</li>
+						</ul>
+					</ul>
+				</section>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+				<section>
+					<h1>Who Supports Open GIS Data?</h1>
+					<h3><a>EVERYONE!</a> (almost)</h3>
+				</section>
 
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+				<section><h2><a><b>US Government</a></b></h2><p>
+						In January of 2009, the President released a memo on Transparency and Open Government which makes three strong points:
+						<br>
+						<ul>
+							<li><a><b>Government should be transparent:</a></b> "Transparency promotes accountability and provides information for citizens about what their Government is doing"</li>
+							<br>
+							<li><a><b>Government should be participatory:</a></b> "Public engagement enhances the Government's effectiveness and improves the quality of its decisions"</li>
+							<br>
+							<li><a><b>Government should be collaborative:</a></b> "Collaboration actively engages Americans in the work of their Government."</li>
+						</ul>
+				</section>
+
+				<section><h2><a><b>State Of Virginia</a></b></h2><p>
+						<a href="http://datapoint.apa.virginia.gov/">Commonwealth Data Point</a> is run by the VA Auditor of Public Accounts and gives public access to Virgina demographic data and detailed state financial figures including 100% of all state spending, including all contract payments.
+				</section>
+
+				<section><h2><a><b>Other Virginia Cities/Counties</a></b></h2><p>
+					<ul>
+						<li><a><b>City of Richmond</a></b> provides it's <a href="http://www.richmondgov.com/GIS/">GIS Data</a> and encourages innovators and innovations that demonstrate a more collaborative and open government to submit there maps to the City.</li>
+						<br>
+						<li><a><b>City of Charlottesville</a></b> provides it's <a href="http://www.charlottesville.org/Index.aspx?page=1674">GIS Data</a> for free.</li>
+					</ul>
+				</section>
+
+				<section><h2><a><b>Cities Across The Country</a></b></h2><p>
+					<ul>
+						<li><a href="http://opendataphilly.org/faq/">Open Data Philly</a> seeks to improve access to data about Philadelphia, increase government transparency and accountability, drive and encourage innovative uses of the data, and inform citizens about regional trends.</li>
+						<br>
+						<li><a href="http://data.octo.dc.gov/">DC Data Catalog</a> provides citizens with the access to 495 datasets from multiple agencies, ensuring agencies operate as more responsive, better performing organizations.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2><a><b>Citizens!</a></b></h2><p>
+					People who work with your data want it in easily ingestible formats, so that they may work with it in the tools of their choice. 
+				</section>
+
+				<section>
+					<h1>Case Studies</h1>	
+				</section>
+
+				<section><h2><a><b>National Park Service</a></b></h2><p>
+					NPS has integrated their traditional GIS implementation of ArcSDE with Open Street Map. Custom versions of the open source iD editor for OSM, allows park employees and the public to contribute to the authoritative parks database. 
+				</section>
+
+				<section><h2><a><b>New York City</a></b></h2><p>
+					Through legislation, NYC released it's data to the public. Using a series of <a href="https://github.com/osmlab/changewithin">open source scripts</a>, the GIS department can monitor changes made in and around their datasets.  
+				</section>
+
+				<section><h2><a><b>TriMet</a></b></h2><p>
+					Portland, Oregon's regional commuter transit provider, uses OSM as the basemap for real time navigation, route planning, and scheduling.  
+				</section>
+
+				<section>
+					<h1>Things To Know</h1>	
+				</section>
+
+				<section>
+					<a><b>License</a></b> - Data can be open and free and licensed! For instance, an <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY</a> requires users to credit you as the original source. Open Street Map uses an <a href="http://opendatacommons.org/licenses/odbl/">ODbl</a> or a "share-alike" type license.<p>
+					<br>
+					<a><b>CSV</a></b> - Comma Seperated Values is the preferred method of sharing tabular data. <i>(Never PDF)</i><p>
+					<br>
+					<a><b>GeoJSON</a></b> - Widely used standard for smaller geographic data sets. <i>(Sometimes KML)</i><p>
+					<br>
+					<a><b>Shapefile</a></b> - perhaps the most used / shared georgraphic data format and is <i>(mostly)</i> open!<p>
+					<br>
+					<a><b>GeoTIFF</a></b> - open standard for sharing raster data.
+				</section>
+
+				<section>
+					<h1>Tools To Use</h1>	
+				</section>
+
+				<section>
+					<a><b>SIMPLE</a></b> Links On A Web Page!<p>
+					<br>
+ 					<a href="www.github.com">GitHub</a> The de-facto collaborative environment for many organizations.<p>
+ 					<br>
+					<a href="http://www.openstreetmap.org/about">Open Street Map</a> A great tool/workflow for making your data available in highly used map services around the world.<p>
+					<ul>
+						<li>ArcGIS Editor For Open Street Map - <a href="http://blogs.esri.com/esri/arcgis/2012/03/08/hello-map-getting-started-with-the-arcgis-editor-for-openstreetmap/">Free Download From Esri</a></li>
+						<li>iD - The <a href="http://www.openstreetmap.org/">default editor</a> for Open Street Map</li>
+						<li>Edit Directly Within <a href="https://www.mapbox.com/blog/improve-this-map/">MapBox Maps</a></li>
+					</ul><p>
+					<br>
+					<a href="https://github.com/project-open-data/esri2open">Esri2Open</a> Part of <a href="https://github.com/project-open-data">Project Open Data</a> is a free ArcGIS toolbox for exporting GIS data to sharable formats.<p>
+					<br>
+					Esri is releasing <a href="https://composer.dc.esri.com/">ArcGIS For Open Data</a> that will allow users with AGOL Organization accounts to publish there existing and new services as Open. This also includes a tool for creating an open data page for your organization.
+				</section>
+
+				<section>
+					<h1>How Does Hampton Roads Look?</h1>	
+				</section>
+
+				<section>
+					<table cellpadding="4" cellspacing="4" width="100%">
+						<thead>
+							<tr>
+								<td style="width:33%">City</th>
+								<td style="width:33%">Data Available</th>
+								<td style="width:33%">Cost</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://www.cityofchesapeake.net/Government/City-Departments/Departments/Information-Technology-Department/02gis.htm">Chesapeake</a></td>
+								<td><a href="http://www.cityofchesapeake.net/Government/City-Departments/Departments/Information-Technology-Department/02gis/gis-purchase.htm">YES</a></td>
+								<td>$50</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.franklincountyva.gov/gis">Franklin</a></td>
+								<td>NO</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.co.gloucester.va.us/GeographicInformationSystems(GIS)/tabid/692/Default.aspx">Gloucester</a></td>
+								<td>NO</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.co.isle-of-wight.va.us/gis-services/">Isle Of Wight</a></td>
+								<td><a href="http://www.co.isle-of-wight.va.us/gis-services/gis-services-price-list/">YES</a></td>
+								<td>$15 Per Layer</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.hampton.gov/index.aspx?NID=1850">Hampton</a></td>
+								<td><a href="http://www.hampton.gov/DocumentCenter/View/604">NO</a></td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="https://www.jamescitycountyva.gov/assessments/gis-mapping.html">James City County</a></td>
+								<td><a href="https://www.jamescitycountyva.gov/assessments/gis-mapping-layers.html">YES</a></td>
+								<td><a><b>FREE!!!</a></b></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.nngov.com/engineering/resources/maps">Newport News</a></td>
+								<td>NO</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="http://va-norfolk.civicplus.com/index.aspx?NID=1596">Norfolk</a></td>
+								<td><a href="http://va-norfolk.civicplus.com/index.aspx?NID=1620">YES</a></td>
+								<td>$100 Per Theme</td>
+							</tr>
+							<tr>
+								<td><a href="http://poquoson.mapsdirect.net/">Poquoson</a></td>
+								<td>NO</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="http://www2.portsmouthva.gov/website/portsweb2_in.aspx">Portsmouth</a></td>
+								<td>NO</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.smithfieldva.gov/content/index/view/id/40">Smithfield</a></td>
+								<td>NO</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.southamptoncounty.org/gis.aspx">Southampton County</a></td>
+								<td>NO</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.suffolkva.us/gis/">Suffolk</a></td>
+								<td><a href="http://www.suffolkva.us/gis/fees/">YES</a></td>
+								<td>$50 - $500</td>
+							</tr>
+							<tr>
+								<td><a href="http://surry.mapsdirect.net/">Surry County</a></td>
+								<td>NO</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.vbgov.com/government/departments/communications-info-tech/maps/Pages/default.aspx">Virginia Beach</a></td>
+								<td><a href="http://www.vbgov.com/government/departments/communications-info-tech/maps/Documents/Info_about_Available_Data.pdf">YES</a></td>
+								<td>Free To Order</td>
+							</tr>
+							<tr>
+								<td><a href="http://www.yorkcounty.gov/CountyGovernment/FinancialMgmtServices/GISMapping.aspx">York County</a></td>
+								<td><a href="http://www.yorkcounty.gov/CountyGovernment/FinancialMgmtServices/GISMapping/DigitalData.aspx">YES</a></td>
+								<td>$20-$300</td>
+							</tr>
+							<tr>
+								<td><a href="https://www.williamsburgva.gov/Index.aspx?page=793">Williamsburg</a></td>
+								<td><a href="https://www.williamsburgva.gov/Index.aspx?page=793">YES</a></td>
+								<td><a><b>FREE!!!</a></b></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section>
+					<h1>Most Important Part - Promote Your Open Data! Engage The Public, Especially Students!</h1>
+				</section>
+
+				<section><h3><a><b>Further Reading</a></b></h3><p>
+					<ul>
+						<li><b>National Park Service</b></li>
+							<ul>
+								<li><a href="http://www.nps.gov/npmap/blog/nps-plus-osm-equals-places-of-interest.html"><i>Places Of Interest</i></a></li>
+								<li><a href="http://www.nps.gov/npmap/slides/nps-and-osm/#1"><i>NPS And OSM</i></a>  </li>
+							</ul>
+						<li><b>Trimet</b></li>
+							<ul>
+								<li><a href="http://prezi.com/jgj6cl1rtwm5/openstreetmap-and-the-trimets-open-source-trip-planner/"><i>TriMet & Open Street Map</i></a></li>
+							</ul>
+						<li><a href="http://project-open-data.github.io/business-case/"><b>Project Open Data</b></a></li>
+						<li><a href="http://opendataphilly.org/faq/"><b>Open Data Philly</b></a></li>
+						<li><b>Open Street Map</b></li>
+							<ul>
+								<li><a href="http://openstreetmap.us/2013/04/openstreetmap-in-government/"><i>OSM In Government</i></a></li>
+								<li><a href="http://www.slideshare.net/geomantic/openstreetmap-in-government-us-census-bureau-experience"><i>Census Bureau & OSM</i></a> </li>
+								<li><a href="http://learnosm.org/en/">Learn OSM</a>  </li>
+							</ul>
+						<li><a href="http://simpleopendata.com/"><b>Simple Open Data</b></a></li>
+						<li><b>Esri</b></li>
+							<ul>
+								<li><a href="http://blogs.esri.com/esri/arcgis/2014/02/10/preview-of-open-data/"><i>ArcGIS Open Data</i></a>  </li>
+								<li><a href="http://blogs.esri.com/esri/esri-insider/2014/03/05/esri-open-source-growing/"><i>Esri & Open Source</i></a>  </li>
+								<li><a href="http://blogs.esri.com/esri/arcgis/2012/03/08/hello-map-getting-started-with-the-arcgis-editor-for-openstreetmap/"><i>ArcGIS Editor For OSM</i></a>  </li>
+							</ul>
+				</section>
+				<section>
+					<h1>Questions?</h1>
+				</section>	
+	
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				keyboard: true,
+				loop: false,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
 </html>
