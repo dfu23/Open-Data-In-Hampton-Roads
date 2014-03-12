@@ -1,7 +1,10 @@
 Open Data &  GIS
 ==========================
 _A Presentation To The Hampton Roads GIS Users Group_ 
-###[Presentation Online!!](http://jonahadkins.github.io/Open-Data-In-Hampton-Roads/#/)
+###[View The Presentation Online!!](http://jonahadkins.github.io/Open-Data-In-Hampton-Roads/#/)
+
+##What Is Open Data?   
+“data that can be freely used, reused and redistributed by anyone – subject only, at most, to the requirement to attribute and sharealike.” - [OpenDefinition.org](http://opendefinition.org/od/)  
 
 ##Why?  
 
