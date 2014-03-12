@@ -39,7 +39,7 @@ html {
 
 /* SECTION 2: Remove any elements not needed in print.
    This would include navigation, ads, sidebars, etc. */
-/*.nestedarrow,
+.nestedarrow,
 .controls,
 .reveal .progress,
 .reveal.overview,
