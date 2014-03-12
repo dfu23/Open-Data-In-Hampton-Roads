@@ -79,8 +79,6 @@ York County | [GIS Mapping](http://www.yorkcounty.gov/CountyGovernment/Financial
 Williamsburg | [GIS Layers](https://www.williamsburgva.gov/Index.aspx?page=793) | `YES` | [GIS Layers](https://www.williamsburgva.gov/Index.aspx?page=793) | `FREE`
 
 
-
-
 #### Further Reading  
 * National Park Service  
   * [Places Of Interest](http://www.nps.gov/npmap/blog/nps-plus-osm-equals-places-of-interest.html) Implementation
@@ -99,5 +97,6 @@ Williamsburg | [GIS Layers](https://www.williamsburgva.gov/Index.aspx?page=793) 
   * [Esri & Open Source](http://blogs.esri.com/esri/esri-insider/2014/03/05/esri-open-source-growing/)  
   * [ArcGIS Editor For OSM](http://blogs.esri.com/esri/arcgis/2012/03/08/hello-map-getting-started-with-the-arcgis-editor-for-openstreetmap/)  
  
-
+#### Special Thanks
+To [hakimel](https://github.com/hakimel) For [reveal.js](https://github.com/hakimel/reveal.js)
 
