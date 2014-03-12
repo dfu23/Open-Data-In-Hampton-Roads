@@ -60,6 +60,10 @@ People who work with your data want it in easily ingestible formats, so that the
 * [__Esri2Open__](https://github.com/project-open-data/esri2open) Part of [Project Open Data](https://github.com/project-open-data) is a free ArcGIS toolbox for exporting GIS data to sharable formats.
 * __Esri__ is releasing [ArcGIS For Open Data](https://composer.dc.esri.com/) that will allow users with AGOL Organization accounts to publish there existing and new services as 'Open'. This also includes a tool for creating an open data page for your organization.
 
+##Interested In Legislation?
+
+Check out the [Sunlight Foundation](http://sunlightfoundation.com/policy/local/) for resources on crafting policy.
+
 ##How Does Hampton Roads Stack Up?
 
 City | GIS Link | Data Available | Link | Cost |
